@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# QIIME 2 artifacts (large binary files)
+*.qza
+*.qzv
+
+# Directories with generated data
+busco_downloads/
+exported_bam/
+exported_contigs/
+home/
+runinfo/
+test_busco/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
