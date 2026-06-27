@@ -1,0 +1,9 @@
+[parsl]
+
+[[parsl.executors]]
+class = "HighThroughputExecutor"
+label = "default"
+
+[parsl.executors.provider]
+class = "LocalProvider"
+max_blocks = 2
